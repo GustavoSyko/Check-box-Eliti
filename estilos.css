@@ -2,6 +2,17 @@ body {
     padding: 2em;  
   }
   
+  #container{
+      left:50%;
+    top:55%;
+    margin-left:-100px; /* Metade do valor da Largura */
+    margin-top:-50px; /* Metade da valor da Altura */
+    position:relative;
+    width:300px; /* Valor da Largura */
+    height:230px; /* Valor da Altura */
+    background:#507701;
+  }
+  
   .counter-reset{
      counter-reset: checkboxcounter;
   }
