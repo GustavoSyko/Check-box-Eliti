@@ -4,7 +4,9 @@ body {
     padding: 2em;
     position:fixed;
     background-color: white; /* Não consegui manter o alinhamento ao minimizar */
+    align-content: center;
   }
+
   
   #container{
       left:49%;
@@ -14,8 +16,9 @@ body {
     position:fixed;
     width:255px; 
     height:235px; 
-    background:#507701;
+    background:blue;
     border-radius: 9px;
+    padding:0px;
   }
 
   .gustavo{
