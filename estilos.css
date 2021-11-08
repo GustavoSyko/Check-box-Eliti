@@ -1,80 +1,79 @@
 body {
-    left:23%;
-    top:5%;
-    padding: 2em;
-    position:fixed;
-    background-color: white; /* Não consegui manter o alinhamento ao minimizar */
-    align-content: center;
-  }
+   left:23%;
+   top:5%;
+   padding: 2em;
+   position:fixed;
+   background-color: white; /* Não consegui manter o alinhamento ao minimizar */
+   align-content: center;
+}
 
-  
-  #container{
-      left:49%;
-    top:55%;
-    margin-left:-100px; 
-    margin-top:-50px; 
-    position:fixed;
-    width:255px; 
-    height:235px; 
-    background:blue;
-    border-radius: 9px;
-    padding:0px;
-  }
 
-  .gustavo{
-      top: 50%;
-  }
+#container{
+   left:49%;
+   top:55%;
+   margin-left:-100px; 
+   margin-top:-50px; 
+   position:fixed;
+   width:255px; 
+   height:235px; 
+   background:blue;
+   border-radius: 9px;
+   padding:0px;
+}
 
-  
-  #hora{
-    left:30%;
-    top:60%;
-    margin-left:-10px; 
-    margin-top:-10px;
-    position:fixed;
-    width:100px;
-    height:20px; 
-  }
-  
-  .data{
-    left:10%;
-    top:55%;
-    margin-left:-10px; 
-    margin-top:-10px; 
-    position:relative;
-    width:80px; 
-    height:40px; 
-  }
+.gustavo{
+   top: 50%;
+}
 
-  #enviar{
-      margin-left: 5px;
-      margin-top: 1px;
-      left:50%;
-      top:55%;
-      width:50px;
-      height:20px;
 
-  }
+#hora{
+   left:30%;
+   top:60%;
+   margin-left:-10px; 
+   margin-top:-10px;
+   position:fixed;
+   width:100px;
+   height:20px; 
+}
 
-  .counter-reset{
-     counter-reset: checkboxcounter;
-  }
-  
-  .meucheckbox{
-     width: 20px;
-     height: 20px;
-     margin-right: 10px;
-     appearance: checkbox;
-     -moz-appearance: checkbox;
-     -webkit-appearance: checkbox;
-  }
-  
-  
-  .counter-print::after{
-     content: "Total: " counter(checkboxcounter);
-  }
-  
-  
-  .meucheckbox:checked{
-     counter-increment: checkboxcounter;
-  }
+.data{
+   left:10%;
+   top:55%;
+   margin-left:-10px; 
+   margin-top:-10px; 
+   position:relative;
+   width:80px; 
+   height:40px; 
+}
+
+#enviar{
+   margin-left: 5px;
+   margin-top: 1px;
+   left:50%;
+   top:55%;
+   width:50px;
+   height:20px;
+}
+
+.counter-reset{
+   counter-reset: checkboxcounter;
+}
+
+.meucheckbox{
+   width: 20px;
+   height: 20px;
+   margin-right: 10px;
+   appearance: checkbox;
+   -moz-appearance: checkbox;
+   -webkit-appearance: checkbox;
+}
+
+
+.counter-print::after{
+   content: "Total: " counter(checkboxcounter);
+}
+
+
+.meucheckbox:checked{
+   counter-increment: checkboxcounter;
+}
